@@ -318,6 +318,9 @@ class ComposerStaticInit08684823685223c1bd4ad4de663d5c50
     public static $classMap = array (
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+        'CategoryAdsSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoryAdsSeeder.php',
+        'CreateCategoryAdsTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_013557_create_category_ads_table.php',
+        'CreateItemAdsTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_013401_create_item_ads_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_065604_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
@@ -394,6 +397,7 @@ class ComposerStaticInit08684823685223c1bd4ad4de663d5c50
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'ItemAdsSeeder' => __DIR__ . '/../..' . '/database/seeds/ItemAdsSeeder.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/AssertionFailedError.php',

@@ -316,6 +316,7 @@ class ComposerStaticInit08684823685223c1bd4ad4de663d5c50
     );
 
     public static $classMap = array (
+        'AddNameToItemAds' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_160610_add_name_to_item_ads.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
         'CategoryAdsSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoryAdsSeeder.php',

@@ -39,6 +39,7 @@ class ItemAdsController extends Controller
       $item_ads->fill([
         'user_id' => $request->input('user_id'),
         'category_id' => $request->input('category_id'),
+        'name' => $request->input('name'),
         'title' => $request->input('title'),
         'price' => $request->input('price'),
         'description' => $request->input('description'),
@@ -80,6 +81,16 @@ class ItemAdsController extends Controller
       if ($request->has('name')) {
           $item_ads = ItemAds::find($id);
           $item_ads->name = $request->input('name');
+          $item_ads->user_id = $request->input('user_id');
+          $item_ads->category_id = $request->input('category_id');
+          $item_ads->title = $request->input('title');
+          $item_ads->description = $request->input('description');
+          $item_ads->picture = $request->input('picture');
+          $item_ads->no_hp = $request->input('no_hp');
+          $item_ads->city = $request->input('city');
+          $item_ads->sold = $request->input('sold');
+          $item_ads->published = $request->input('published');
+          $item_ads->price = $request->input('price');
           if ($item_ads->save()) {
               $res['success'] = true;
               $res['result'] = 'Success update '.$request->input('name');

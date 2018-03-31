@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AddNameToItemAds' => $baseDir . '/database/migrations/2018_03_31_160610_add_name_to_item_ads.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
     'CategoryAdsSeeder' => $baseDir . '/database/seeds/CategoryAdsSeeder.php',

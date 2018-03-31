@@ -16,7 +16,7 @@ class ItemAds extends Model
    * @var array
    */
   protected $fillable = [
-    'user_id','category_id','title','description','picture','no_hp','city','sold','published',
+    'user_id','category_id','name','title','price','description','picture','no_hp','city','sold','published'
   ];
   /**
    * One to one relationships

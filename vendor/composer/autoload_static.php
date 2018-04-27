@@ -322,6 +322,7 @@ class ComposerStaticInit08684823685223c1bd4ad4de663d5c50
         'CategoryAdsSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoryAdsSeeder.php',
         'CreateCategoryAdsTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_013557_create_category_ads_table.php',
         'CreateItemAdsTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_013401_create_item_ads_table.php',
+        'CreateUserProfilesTable' => __DIR__ . '/../..' . '/database/migrations/2018_04_27_160518_create_user_profiles_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2018_03_31_065604_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',

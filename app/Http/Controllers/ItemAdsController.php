@@ -114,4 +114,15 @@ class ItemAdsController extends Controller
           return response($res);
       }
     }
+
+    public function upload(Request $request, $id)
+    {
+      $file = $request->file('photo');
+      if ($request->hasFile('photo')) {
+        if ($request->file('photo')->isValid()) {
+          $request->file('photo')->move($destinationPath);
+          $request->file('photo')->move($destinationPath, $fileName); 
+        }
+      }
+    }
 }

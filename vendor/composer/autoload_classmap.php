@@ -12,6 +12,7 @@ return array(
     'CategoryAdsSeeder' => $baseDir . '/database/seeds/CategoryAdsSeeder.php',
     'CreateCategoryAdsTable' => $baseDir . '/database/migrations/2018_03_31_013557_create_category_ads_table.php',
     'CreateItemAdsTable' => $baseDir . '/database/migrations/2018_03_31_013401_create_item_ads_table.php',
+    'CreateUserProfilesTable' => $baseDir . '/database/migrations/2018_04_27_160518_create_user_profiles_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2018_03_31_065604_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'DivisionByZeroError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
